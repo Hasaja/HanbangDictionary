@@ -1,0 +1,97 @@
+html{
+    font-family: NanumSquareOTF,NanumSquareTTF,NanumSquareRoundOTF,'Malgun Gothic';
+}
+body{
+    margin: 0;
+}
+input:-ms-input-placeholder {color:#a8a8a8; } 
+input::-webkit-input-placeholder {color:#a8a8a8;} 
+input::-moz-placeholder {color:#a8a8a8;}
+hr{
+    width: 100%;
+    color: rgb(117, 182, 207);
+    background-color: rgb(117, 182, 207);
+    border : solid 0.5px;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(117, 182, 207);
+    border-bottom: rgb(115, 150, 160) 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.titleSheet{
+    line-height: 60px;
+}
+.search{
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    width: 600px;
+    border: 3px solid rgb(117, 182, 207);
+    background: #ffffff;
+    margin: auto;
+    margin-top: 80px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 100px;
+}
+.bottom{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#title{
+    font-size: 30px;
+    color: whitesmoke;
+}
+#moreWords{
+    font-size: 20px;
+    color: rgb(211, 227, 233);
+    float: right;
+}
+#searchWindow{
+    font-size: 16px;
+    width: 500px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+#searchButton{
+    font-size: 25px;
+    width: 80px;
+    height: 100%;
+    border: 0px;
+    background: rgb(117, 182, 207);
+    outline: none;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+}
+#credit{
+    color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#topLine{
+    margin-bottom: 30px;
+}
+#bottomLine{
+    margin-top: 150px;
+}
+
+#titleLink:link {text-decoration: none; color: whitesmoke;}
+#titleLink:visited {text-decoration: none; color: whitesmoke;}
+#titleLink:active {text-decoration: none; color: whitesmoke;}
+#titleLink:hover {text-decoration: none; color: whitesmoke;}
+
+#credit:link{text-decoration: none; color: skyblue;}
+#credit:visited {text-decoration: none; color: skyblue;}
+#credit:active {text-decoration: none; color: skyblue;}
+#credit:hover {text-decoration: none; color: rgb(103, 157, 179);}
